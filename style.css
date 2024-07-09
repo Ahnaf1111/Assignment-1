@@ -161,10 +161,44 @@ nav>h3{
     padding: 32px;
 }
 
-/* main style end */
 .target>p{
     text-align: center;
     margin-top: 24px;
     margin-bottom: 48px;
 }
+.target-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.target-items{
+    padding: 40px;
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+width: 364px;
+}
+.target-items>h4{
+    color: #0D1321;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+margin: 24px 0 8px;
+}
+.target-items>a{
+    color: #0D1321;
+font-size: 16px;
+font-weight: 700;
+text-decoration-line: underline;
+margin-top: 24px;
+display: inline-block;
+}
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+}
+.js{
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+/* main style end */
 
