@@ -33,6 +33,7 @@ body{
     padding: 12px 20px;
     border: 1px solid #0D1321;
     opacity: 0.7;
+    cursor: pointer;
 }
 .text-primary{
     color: #0D1321;
@@ -67,6 +68,11 @@ nav>h3{
     font-size: 28px;
     font-weight: 800;
 }
+.btn-primary>a, .btn-secondary>a{
+    text-decoration: none;
+    color: #0D1321;
+}
+
 /* hero section */
 .hero{
     background-image: url(/assets/Hero-bg.png);
@@ -139,6 +145,9 @@ nav>h3{
     background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
 }
 /* inspiration style*/
+.inspiration{
+    margin-bottom: 151px;
+}
 .inspiration-p{
     text-align: center;
     margin-top: 24px;
@@ -153,5 +162,9 @@ nav>h3{
 }
 
 /* main style end */
-
+.target>p{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
 
