@@ -103,6 +103,11 @@ nav>h3{
     letter-spacing: 2px;
     font-family: "Azeret Mono";
 }
+.hero>button>a{
+    text-decoration: none;
+    color: #FFF;
+
+}
 /* header style end */
 /* main style start */
 /* card section style */
@@ -259,4 +264,20 @@ border-radius: 8px;
 border: 0;
 }
 /* main style end */
-
+/* footer style */
+footer{
+    max-width: 1140px;
+    margin: 80px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+footer>h4{
+    color: #0D1321;
+font-size: 20px;
+font-weight: 600;
+}
+footer>div>a{
+    margin-right: 24px;
+}
