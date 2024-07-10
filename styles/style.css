@@ -165,7 +165,9 @@ nav>h3{
     border: 1px solid rgba(13, 19, 33, 0.20);
     padding: 32px;
 }
-
+.jhankar-sir > iframe{
+    border-radius: 16px;
+}
 .target>p{
     text-align: center;
     margin-top: 24px;
